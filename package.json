@@ -1,12 +1,25 @@
 {
   "name": "vue-flex-validator",
+  "description": "A simple vuejs validator plugin",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-library" : "vue-cli-service build --target lib --name vue-flex-validator ./src/install.js",
     "lint": "vue-cli-service lint"
   },
+  "files": ["dist/*"],
+  "main" : ".dist/vue-flex-validator.common.js",
+  "author": {
+    "name": "Martins Abiodun",
+    "email": "martinsabiodun94@gmail.com"
+  },
+  "repository": "https://github.com/geomartins/vue-flex-validator",
+  "bugs": "https://github.com/geomartins/vue-flex-validator/issues",
+  "keywords": ["vue3", "vue", "validator"],
+  "license": "MIT",
+
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^3.0.0"
