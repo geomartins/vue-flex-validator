@@ -37,7 +37,7 @@ export default {
   },
   components: {},
   methods: {
-    logout() {
+    submit() {
       try {
         new this.flexValidator(this.formData).check({
           name: "required|notNull",
