@@ -10,13 +10,9 @@
     "lint": "vue-cli-service lint"
   },
   "files": [
-    "dist/*",
-    "src/*",
-    "public/*",
-    "*.json",
-    "*.js"
+    "dist/*"
   ],
-  "main": ".dist/vue-flex-validator.common.js",
+  "main": "dist/vue-flex-validator.common.js",
   "author": {
     "name": "Martins Abiodun",
     "email": "martinsabiodun94@gmail.com"
