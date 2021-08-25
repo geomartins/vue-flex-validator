@@ -1,4 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import VueFlexValidator from './install';
 
-createApp(App).mount('#app')
+const app = createApp(App);
+app.use(VueFlexValidator);
+app.mount('#app')
