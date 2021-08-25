@@ -6,13 +6,18 @@ Vue-flex-validator is a vue plugin used for validating form input... It takes it
 #### Via npm 
 
 ```sh
-npm install --save vue-flex-validator
+npm i vue-flex-validator
 ```
 
 #### In Main.js file
 ```javascript
-import VueFlexValidator from 'vue-flex-validator'
-Vue.use(VueFlexValidator);
+import VueFlexValidator  from 'vue-flex-validator'
+import { createApp } from 'vue'
+import App from './App.vue'
+
+const app = createApp(App);
+app.use(VueFlexValidator);
+app.mount('#app')
 ```
 ## Usuage
 ```javascript
