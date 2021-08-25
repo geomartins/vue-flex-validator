@@ -1,7 +1,7 @@
 {
   "name": "vue-flex-validator",
   "description": "A simple vuejs validator plugin",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
